@@ -15,7 +15,6 @@ infile    <- file.path(directory, "all_speed_dt035_Intervall_15.csv")
 inerval   <- fread(infile)
 
 
-
 data_flightcage <- read_sheet(
   "https://docs.google.com/spreadsheets/d/1_khKqNaFJBH0Awyg4olOCRySjCSQpk8JBAA3b83wKBA/edit?gid=825089310#gid=825089310",
   sheet = 3
